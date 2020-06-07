@@ -1,0 +1,26 @@
+.Posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+@media screen and (max-width: 767px){
+    .Posts{
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 80%;
+}
+}
+@media (min-width:800px) and (max-width: 1366px){
+    .Posts{
+        margin: auto;
+        display: flex;
+    flex-flow: col wrap;
+    justify-content: center;
+    width: 100%;
+    }
+}
+

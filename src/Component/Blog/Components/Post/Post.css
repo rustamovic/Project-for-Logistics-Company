@@ -1,0 +1,70 @@
+.Post {
+    width: 375px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
+#img{
+    width: 121px;
+    height: 121px;
+    object-fit: fill;/*cover, contain, scale-down(contain), none, fill, *contain*/
+}
+
+
+@media screen and (max-width: 767px){
+    .Post {
+        width: 375px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #eee;
+        box-shadow: 0 2px 3px #ccc;
+        margin: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        flex-wrap: nowrap;
+    }
+    #sizing{
+        padding: 0px;
+        width: auto
+    }
+}
+@media (min-width: 768px) and (max-width:1920px){
+    #sizing{
+        padding: 0px;
+        width: auto
+    }
+}
+@media (min-width:900px) and (max-width: 1004px){
+    .Post {
+        width: 375px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #eee;
+        box-shadow: 0 2px 3px #ccc;
+        margin: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}
+/* .col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.col-md-8{
+    padding-left: 4px;
+    padding-right: 0px;
+} */

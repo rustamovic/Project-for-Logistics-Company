@@ -1,0 +1,5 @@
+#home{
+    width: 100%;
+     height: 620px;
+     object-fit: fill;/*cover, contain, scale-down(contain), none, fill, *contain*/
+}

@@ -1,0 +1,84 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.btn{
+    padding: 0.5rem 0.75rem;
+    border: none;
+    background-color: indigo;
+    color: #ffffff ;
+    text-align: center;
+    position: relative;
+}
+.btn span {
+    display: block;
+    background-color: #3cefff;
+    position: absolute;
+    transition: all 0.4s ease;
+}
+.btn span:nth-child(odd){
+    height: 1px;
+    width: 0;
+}
+.btn span:nth-child(even){
+    width: 1px;
+    height: 0;
+}
+.btn span:nth-child(1){
+    top: 0;
+    right: 0;
+}
+.btn span:nth-child(2){
+    top: 0;
+    left: 0;
+}
+.btn span:nth-child(3){
+    bottom: 0;
+    left: 0;
+}
+.btn span:nth-child(4){
+    bottom: 0;
+    right: 0;
+}
+.btn:hover span:nth-child(odd){
+    width: 100%;
+}
+.btn:hover span:nth-child(even){
+    height: 100%;
+}
+
+/* Style the navigation bar */
+.navbar1 {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar1 a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar1 a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(83, 8, 153);
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar1 a {
+      float: none;
+      display: block;
+    }
+  }

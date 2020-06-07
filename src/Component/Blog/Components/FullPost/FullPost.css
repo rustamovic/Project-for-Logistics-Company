@@ -1,0 +1,12 @@
+.FullPost {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 5px 5px #ccc;
+    text-align: center;
+}
+#imge{
+    width: 80%;
+    height: 230px;
+    object-fit: fill;
+}

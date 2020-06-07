@@ -1,0 +1,30 @@
+#row:hover{
+    color: white;
+   background-color: rgb(29, 57, 85);
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#row {
+    transition-duration:0.5s;
+    transition-property: background-color, box-shadow, transform;
+    transition-timing-function: linear;
+    /* transition-delay: 0.5s; */
+    position: relative;
+}
+#imge{
+    width: 100%;
+     height: 100%;
+     object-fit: fill;
+}
+#row2:hover{
+    color: white;
+   background-color: #dd1b3c;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+#row2 {
+    transition-duration:0.5s;
+    transition-property: background-color, box-shadow, transform;
+    transition-timing-function: linear;
+    /* transition-delay: 0.5s; */
+    position: relative;
+}
